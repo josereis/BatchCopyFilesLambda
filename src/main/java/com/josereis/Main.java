@@ -1,4 +1,4 @@
-//package health.maida;
+//package com.josereis;
 //
 //import com.amazonaws.auth.AWSStaticCredentialsProvider;
 //import com.amazonaws.auth.BasicAWSCredentials;
@@ -48,10 +48,10 @@
 //                        CopyObjectRequest copyReq = new CopyObjectRequest(bucket, source, bucket, target);
 //                        amazonS3.copyObject(copyReq);
 //
-//                        System.out.println(String.format("Documento de ID %s copiado: %s => %s", documentoId, source, target));
+//                        System.out.println(String.format("Document copied from %s to %s", source, target));
 //                        copiasRealizadas++;
 //                    } catch (Exception e) {
-//                        System.out.println(String.format("Erro ao copiar o documento de ID %s de %s para %s", documentoId, source, target));
+//                        System.out.println(String.format("Error copying document %s to %s", source, target));
 //                    }
 //                    linhasLidas++;
 //                } else {
